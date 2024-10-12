@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.icon-size{
+    height: 20px;
+    width: 20px;
+}
+ul li a{
+    color: #0D0A19 !important;
+    font-weight: 600 !important ;
+    font-size: 15px !important;
+}
+.bi-person-fill{
+    padding: 5px;
+    border-radius: 7px;
+    background-color: #f5f6f7;
+    margin-right: 8px;
+    color: #9A9EA7 !important;
+    
+}
+.NavButton span{
+    color: #9A9EA7 !important;
+    font-size: 14px;
+}
+
+/* Hero Section */
+
+.BrandColor{
+    color: #9A9EA7 ;
+    font-size: 16px;
+    line-height: 24px;
+}
+.HeroArea h1{
+    font-weight: 700;
+    font-size: 64px;
+    color: #0D0A19;
+}
+.HeroButton button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 20px 8px 20px;
+    margin-top: 20px;
+
+}
+.testDrive{
+    background-color: #7963F0 !important;
+}
+.HeroImg{
+    padding-top: 90px;
+}
+
+/* Filter Section */
+
+.filter-heading{
+    line-height: 36px;
+    padding-top:70px ;
+    padding-bottom:40px ;
+    
+}
+
+.vertical-line{
+    width: 1px ;
+    height: 32px;
+    background-color: #EDE8E9 ;
+}
+.filter-search-box{
+    width: 100%;
+    max-width: 945px;
+    margin: 0 auto;
+}
+.filter-searc-label{
+    color:#9A9EA7;
+    font-size: 11px;
+    font-weight: 600;
+}
+.filter-search-select{
+    width: 144px;
+    line-height: 20px;
+    border: none;
+    
+}
+.search-btn{
+    width: 120px;
+    height: 46px;
+    background-color: #7963F0;
+    border-radius: 10px;
+}
+.filter-text-color{
+    color:#9A9EA7;
+}
+
+/* TrandingCard Section */
+.cardHeading{
+    margin-top: 80px !important;
+    margin-bottom: 50px !important;
+    font-size: 28px;
+    font-weight: 700;
+}
+.cardTitle{
+    font-size: 16px !important;
+    color: #0D0A19 !important;
+}
+.cardText{
+    color: #9A9EA7;
+    font-size: 14px;
+}
+.priceBtn{
+    width: 94px !important;
+    height: 36px !important;
+    background-color:#ebe8fd !important;
+    border: none !important;
+    color: #7963F0 !important;
+}
+.bestSellerBtn{
+    color: #9A9EA7 !important;
+    background-color: #fff !important;
+    border: none;
+    font-weight: bold;
+    width: 94px !important;
+    height: 36px !important;
+}
+
+/* bestSelling Section */
+
+.bestSellingHeading{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: 700;
+}
+.vw-logo{
+    height: 40px !important;
+    width: 50px !important;
+}
+.vw-brand{
+    font-size: 18px;
+    font-weight: 700;
+    color: #0D0A19;
+}
+.vw-price{
+    font-size: 14px;
+    font-weight: 400;
+    color: #9A9EA7;
+}
+.sellingCard{
+    padding-bottom: 40px;
+}
+
+/* Reviews Section */
+
+.reviewHeading{
+    padding-top: 10px;
+    font-size: 16px !important;
+    font-weight: 700;
+    color: #0D0A19;
+}
+.reviewDetails{
+    font-size: 14px !important;
+    font-weight: 400;
+    color: #9A9EA7;
+    width: 90%;
+}
+.reviewProfileImg{
+    width: 42px;
+    height: 42px;
+}
+.reviewProfileName{
+    font-size: 14px !important;
+    font-weight: 700;
+    color: #0D0A19;
+    
+}
+.reviewProfileDesignation{
+    font-size: 14px !important;
+    font-weight: 400;
+    color: #0D0A19;
+   
+}
+.profileStar{
+    color: #EF8354;
+    font-size: 18px;
+    margin-top: 6px;
+    
+}
+.profileRating{
+    font-size: 14px;
+    font-weight: 700;
+    color: #0D0A19;
+    
+}
+.profileRatingCount{
+    font-size: 14px;
+    font-weight: 400;
+    color: #9A9EA7;
+}
+.ratingPadding{
+    padding-left: 130px;
+    padding-bottom: 30px;
+
+}
+.profileSection{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* FindVehicles Section */
+
+.maps{
+    margin-top:30px;
+}
+
+/* Footer */
+.footerSection{
+    width: 80%;
+}
+.footerText{
+    font-size: 14px;
+    font-weight: 700;
+    color: #0D0A19;
+}
+.copyRight{
+    font-size: 14px;
+    font-weight: 400;
+    color: #9A9EA7;
+}
+.globalLanguage{
+    font-size: 14px;
+    font-weight: 700;
+    color: #9A9EA7;
+}
