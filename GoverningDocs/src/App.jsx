@@ -1,16 +1,17 @@
-import './App.css'
-import { Button } from './shareComponents/Button'
-import { SectionTitle } from './shareComponents/SectionTitle'
+import "./App.css";
+import Footer from "./compnents/Footer";
+import { Navbar } from "./compnents/Navbar";
+import MobileMenu from "./shareComponents/MobileMenu";
+
 
 function App() {
- 
   return (
-    <>
-      <Button>Praimary Button</Button>     
-      <Button className='bg-white text-black'>Secondary Button</Button>    
-      <SectionTitle gradient="Our Client">Reviews From  </SectionTitle> 
-    </>
-  )
+    <main className="bg-cyan-300/50">
+      <Navbar />
+      <Footer/>
+      
+    </main>
+  );
 }
 
-export default App
+export default App;
