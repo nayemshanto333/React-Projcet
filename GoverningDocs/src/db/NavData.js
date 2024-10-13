@@ -24,3 +24,18 @@ const NavData = [
 ];
 
 export default NavData;
+
+export const SocialIcon =[
+  { 
+    img:"/img/facebook.png",url:"www.facebook.com"
+  },
+  { 
+    img:"/img/instagram.png",url:"www.instagram.com"
+  },
+  { 
+    img:"/img/linkdin.png",url:"www.linkdin.com"
+  },
+  { 
+    img:"/img/x.png",url:"www.x.com"
+  },
+]

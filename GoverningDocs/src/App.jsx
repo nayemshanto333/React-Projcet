@@ -6,8 +6,9 @@ import MobileMenu from "./shareComponents/MobileMenu";
 
 function App() {
   return (
-    <main className="bg-cyan-300/50">
+    <main className="">
       <Navbar />
+      <div className="min-h-[50svh]"></div>
       <Footer/>
       
     </main>
