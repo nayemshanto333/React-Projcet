@@ -1,14 +1,16 @@
 import "./App.css";
 import Footer from "./compnents/Footer";
+import {Hero} from "./compnents/Home/Hero";
 import { Navbar } from "./compnents/Navbar";
-import MobileMenu from "./shareComponents/MobileMenu";
+
 
 
 function App() {
   return (
-    <main className="">
+    <main className="font-Nunito-sans bg-[url(/img/hero-bg.svg)] bg-no-repeat min-h-svh top-0">
       <Navbar />
-      <div className="min-h-[50svh]"></div>
+      <Hero/>
+     
       <Footer/>
       
     </main>
