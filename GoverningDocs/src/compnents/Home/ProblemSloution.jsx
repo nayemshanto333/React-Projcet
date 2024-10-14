@@ -6,9 +6,9 @@ import ProblemSolutionCard from "../../shareComponents/ProblemSolutionCard";
 
 const ProblemSloution = () => {
   return (
-    <section>
+    <section className="pt-14 md:pt-[80px] lg:pt-[128px] ">
       <Container>
-        <div className="pt-14 md:pt-[80px] lg:pt-[128px]">
+        <div>
           <ProblemSolutionTitle />
         </div>
         {/* background: linear-gradient(155.83deg, #00D2FF -15.74%, #059DBE 151.39%);

@@ -1,5 +1,3 @@
-import React from "react";
-
 const NavData = [
   {
     label: "Problem & Solution",
@@ -67,3 +65,37 @@ export const CardData = [
     
   },
 ]
+
+export const ReviewsData =[
+  {
+    img:"img/David.png",
+    name:"David",
+    type:"Happy Client",
+    userReviews:{
+      stars: 5 ,
+      title:"Outstanding Support!",
+      details:"The customer support team was quick to resolve my issues.",
+    },
+  },
+  {
+    img:"img/JohnSmith.png",
+    name:"David",
+    type:"Happy Client",
+    userReviews:{
+      stars: 5 ,
+      title:"It Was A Amazing Experiance!",
+      details:"The AI features saved us countless hours and ensured our compliance was spot on.",
+    },
+  },
+  {
+    img:"img/RonaldRichards.png",
+    name:"David",
+    type:"Happy Client",
+    userReviews:{
+      stars: 4 ,
+      title:"Highly Recommend!",
+      details:"The service was user-friendly and met all my expectations.",
+    },
+  },
+]
+
