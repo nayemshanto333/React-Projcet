@@ -1,13 +1,21 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Container } from "../shareComponents/Container.jsx";
 import Logo from "../shareComponents/Logo.jsx";
 import NavData from "../db/NavData.js";
 import { Button } from "../shareComponents/Button.jsx";
 import MobileMenu from "../shareComponents/MobileMenu.jsx";
 
+
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => setIsMenuOpen((perv) => !perv);
+
+  useEffect (()=>{
+    const bodyClass = document.body.classList;
+    isMenuOpen ? bodyClass.add("no-scroll") : bodyClass.remove("no-scroll")
+
+    return ()=> bodyClass.remove("no-scroll");
+  },[isMenuOpen])
   return (
     <>
       <nav className="py-5 ">
