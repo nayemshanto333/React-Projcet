@@ -22,7 +22,7 @@ export default {
       boxShadow:{
         'Arrow':" 0px 4px 15px 0px rgba(0, 0, 0, 0.1)",
         "Card":"0px 10px 30px 0px #02B6DC26",
-
+        'faq':" 0px 0px 25px 0px #02B6DC26",
       }
     },
   },

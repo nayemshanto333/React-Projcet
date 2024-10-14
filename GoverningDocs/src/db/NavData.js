@@ -126,3 +126,17 @@ export const partners = [
   },
 ]
 
+export const faq =[
+  {
+    "ques":"Is my data secure?",
+    "ans":"Your data is encrypted in transit, but avoid sharing sensitive information.",
+  },
+  {
+    "ques":"What types of documents can Ai GoverningDocs generate?",
+    "ans":"We cover a wide range of documents, including contracts, NDAs, compliance reports, and more. ",
+  },
+  {
+    "ques":"Can I customize the documents?",
+    "ans":"Yes, you can customize documents as needed.",
+  },
+]

@@ -5,6 +5,7 @@ import {Hero} from "./compnents/Home/Hero"
 import ProblemSloution from "./compnents/Home/ProblemSloution";
 import Reviews from "./compnents/Home/Reviews";
 import Partners from "./compnents/Home/Partners";
+import FAQ from "./compnents/Home/FAQ";
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <ProblemSloution/>
       <Reviews/>
       <Partners/>
+      <FAQ/>
      
       <Footer/>
       
