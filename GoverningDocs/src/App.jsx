@@ -6,6 +6,7 @@ import ProblemSloution from "./compnents/Home/ProblemSloution";
 import Reviews from "./compnents/Home/Reviews";
 import Partners from "./compnents/Home/Partners";
 import FAQ from "./compnents/Home/FAQ";
+import Management from "./compnents/Home/Management";
 
 
 
@@ -18,7 +19,7 @@ function App() {
       <Reviews/>
       <Partners/>
       <FAQ/>
-     
+      <Management/>     
       <Footer/>
       
     </main>
