@@ -3,16 +3,16 @@ import React, { useState } from "react";
 import { SectionTitle } from "../../shareComponents/SectionTitle";
 import ReviewCard from "../../shareComponents/ReviewCard";
 import { ReviewsData } from "../../db/NavData";
-import { Stars } from "./ArrowIcon";
+import { Stars } from "./Icon";
 import { cn } from "../../utils";
 
 const Reviews = () => {
   const [active, setActive] = useState(1);
   const activeReview = ReviewsData[active];
   return (
-    <section className="my-9 md:my-20 lg:my-[120px] xl:my-[150px]">
+    <section className="my-9 md:my-20 lg:my-[120px] xl:my-[150px] py-10 lg:py-20 bg-[#F6F6F6]">
       <Container>
-        <div className=" py-20 bg-[#F6F6F6]">
+        
           <SectionTitle gradient="Our Client" className="text-center">
             Reviews From
           </SectionTitle>
@@ -48,7 +48,7 @@ const Reviews = () => {
 
             {/* User Reviews */}
             <div className="pt-5 sm:pt-0 space-y-[30px] w-full">
-              <h2 className="text-[30px] font-bold text-secondary">
+              <h2 className=" text-[20px] sm:text-[30px] font-bold text-secondary">
                {activeReview.userReviews.title}
               </h2>
               <div className="flex justify-start items-center gap-[5px]">
@@ -56,12 +56,12 @@ const Reviews = () => {
                   <Stars keys={el} />
                 ))}
               </div>
-              <p className="text-base text-accent max-w-[500px]">
+              <p className="text-sm sm:text-base text-accent max-w-[500px]">
                {activeReview.userReviews.details}
               </p>
             </div>
           </div>
-        </div>
+        
       </Container>
     </section>
   );

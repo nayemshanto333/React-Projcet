@@ -99,3 +99,30 @@ export const ReviewsData =[
   },
 ]
 
+export const partners = [
+  {
+    img:'img/logo1.png',
+    alt:"partner1",
+  },
+  {
+    img:'img/logo2.png',
+    alt:"partner2",
+  },
+  {
+    img:'img/logo3.png',
+    alt:"partner3",
+  },
+  {
+    img:'img/logo4.png',
+    alt:"partner4",
+  },
+  {
+    img:'img/logo5.png',
+    alt:"partner5",
+  },
+  {
+    img:'img/logo6.png',
+    alt:"partner6",
+  },
+]
+

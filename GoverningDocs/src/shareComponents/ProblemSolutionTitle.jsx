@@ -1,6 +1,6 @@
 import React from 'react';
 import {SectionTitle} from '../shareComponents/SectionTitle'
-import { Arrow } from '../compnents/Home/ArrowIcon.jsx';
+import { Arrow } from '../compnents/Home/Icon.jsx';
 
 const ProblemSolutionTitle = () => {
   return (

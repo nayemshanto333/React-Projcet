@@ -4,6 +4,7 @@ import { Navbar } from "./compnents/Navbar";
 import {Hero} from "./compnents/Home/Hero"
 import ProblemSloution from "./compnents/Home/ProblemSloution";
 import Reviews from "./compnents/Home/Reviews";
+import Partners from "./compnents/Home/Partners";
 
 
 
@@ -14,6 +15,7 @@ function App() {
       <Hero/>
       <ProblemSloution/>
       <Reviews/>
+      <Partners/>
      
       <Footer/>
       
